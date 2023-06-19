@@ -1,0 +1,10 @@
+tensorflow==2.13.0rc0
+tensorflow-datasets
+keras==2.13.1rc0
+numpy
+scikit-learn
+Pillow
+matplotlib
+opencv-python
+fastapi
+uvicorn[standard]
