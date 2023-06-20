@@ -1,0 +1,63 @@
+body {
+    background-color: #D4E293;
+}
+
+#problemAndSolution {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#problem {
+    background-color: bisque;
+    width: 50%;
+    font-size: 50px;
+    text-align: end;
+    border: none;
+}
+
+#problem:focus {
+    outline: none;
+}
+
+#solution {
+    width: 25%;
+    background-color: white;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#buttonCheck {
+    width: 200px;
+    height: 60px;
+    font-size: large;
+    border: 2px bisque ridge;
+    border-radius: 50px;
+    border-style: solid;
+    background-color: white;
+    margin-top: 10px;
+    transition: background .8s;
+}
+
+#buttonCheck:hover {
+    background: #f5f8e5 radial-gradient(circle, transparent 1%, #f5f8e5 1%) center/15000%;
+}
+
+#buttonCheck:active {
+    background-color: #d4e293;
+    background-size: 100%;
+    transition: background 0s
+}
+
+#statusText { 
+    display: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 10px;
+}
