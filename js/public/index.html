@@ -77,10 +77,8 @@
     }
     
     function checkResult() {
-        let image = new Image()
         let problem = problemInput.value
-        image.id = "result"
-        image.src = canvas.toDataURL()
+        let encodedImage = canvas.toDataURL()
     }
     </script>
 </body>
